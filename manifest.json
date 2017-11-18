@@ -21,7 +21,8 @@
   },
 
   "sidebar_action": {
-    "default_title": "Tagada Pouet",
+    "browser_style": true,
+    "default_title": "Top words in page",
     "default_panel": "sidebar/sidebar.html",
     "default_icon": "icons/border-48.png"
   },
