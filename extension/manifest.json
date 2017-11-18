@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Tagada Po",
+  "name": "Top words in page",
   "version": "1.0",
 
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "Display all the words used in the current tab ordered by usage.",
 
   "icons": {
     "48": "icons/border-48.png"
@@ -17,7 +17,7 @@
   "browser_action": {
     "browser_style": false,
     "default_icon": "icons/border-48.png",
-    "default_title": "Tagada Pouet"
+    "default_title": "Top words in page"
   },
 
   "sidebar_action": {
