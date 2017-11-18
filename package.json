@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "webpack": "webpack",
+    "test-extension": "web-ext -s extension run",
+    "build": "web-ext -s extension build"
+  },
   "devDependencies": {
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.5",

@@ -12,7 +12,7 @@ module.exports = {
 
     output: {
         path: PATHS.build,
-        filename: '[name]/[name].js'
+        filename: 'extension/[name]/[name].js'
     },
 
     resolve: {
