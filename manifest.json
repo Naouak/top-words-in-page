@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "Tagada Po",
+  "version": "1.0",
+
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "browser_style": false,
+    "default_icon": "icons/border-48.png",
+    "default_title": "Tagada Pouet"
+  },
+
+  "sidebar_action": {
+    "default_title": "Tagada Pouet",
+    "default_panel": "sidebar/sidebar.html",
+    "default_icon": "icons/border-48.png"
+  },
+
+  "background": {
+    "scripts": [
+      "background_scripts/background.js"
+    ]
+  }
+}
